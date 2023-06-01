@@ -19,7 +19,7 @@ async function fetchUser() {
   }
 }
 
-// Event listener for the "Generate User Profile" button
+// addEventListener for the "Generate User Profile" button
 document.getElementById('generate-btn').addEventListener('click', fetchUser);
 
 // Call fetchUser() when the page loads
